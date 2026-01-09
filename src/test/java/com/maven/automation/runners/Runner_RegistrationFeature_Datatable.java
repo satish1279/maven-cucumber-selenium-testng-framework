@@ -10,7 +10,8 @@ import io.cucumber.testng.CucumberOptions;
 		glue = "com.parallel.automation.stepDefinitions",
 		plugin = {
 				"pretty",
-				"html:target/registrations-cucumber-reports.html"
+				"html:target/registrations-cucumber-reports.html",
+				"rerun:target/failed_scenarios.txt"
 		},
 		//tags = "not @outline",
 		monochrome = true
