@@ -2,10 +2,10 @@
 
 <suite name="Maven Cucumber Suite" parallel="false" thread-count="1">
 
-	<test name="Login Feature">
+	<test name="Profile Update Feature">
 		<classes>
 			<class
-				name="com.maven.automation.runners.Runner_LoginFeature" />
+				name="com.maven.automation.runners.Runner_ProfileUpdateFeature" />
 		</classes>
 	</test>
 
