@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Maven Cucumber Suite" parallel="false" >
+<suite name="Maven Cucumber Suite" parallel="false" thread-count="1">
 
 	<test name="Feature Folder With Single Runner">
 		<classes>
