@@ -2,10 +2,10 @@
 
 <suite name="Maven Cucumber Suite" parallel="false" thread-count="1">
 
-	<test name="Feature Folder With Single Runner">
+	<test name="Login Feature">
 		<classes>
 			<class
-				name="com.maven.automation.runners.Runner_FeatureFolder" />
+				name="com.maven.automation.runners.Runner_LoginFeature" />
 		</classes>
 	</test>
 
