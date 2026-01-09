@@ -2,10 +2,10 @@
 
 <suite name="Maven Cucumber Suite" parallel="false" thread-count="1">
 
-	<test name="Registration Feature With DataProvider">
+	<test name="Registration Feature With DataTable">
 		<classes>
 			<class
-				name="com.maven.automation.runners.Runner_RegistrationFeature_Dataprovider" />
+				name="com.maven.automation.runners.Runner_RegistrationFeature_Datatable" />
 		</classes>
 	</test>
 
