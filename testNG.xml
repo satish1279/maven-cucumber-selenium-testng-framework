@@ -2,10 +2,10 @@
 
 <suite name="Maven Cucumber Suite" parallel="false" thread-count="1">
 
-	<test name="Profile Update Feature">
+	<test name="Registration Feature With DataProvider">
 		<classes>
 			<class
-				name="com.maven.automation.runners.Runner_ProfileUpdateFeature" />
+				name="com.maven.automation.runners.Runner_RegistrationFeature_Dataprovider" />
 		</classes>
 	</test>
 
